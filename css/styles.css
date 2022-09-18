@@ -1,0 +1,173 @@
+
+/******************** Tags ********************/
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/******************** Headings ********************/
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/******************** Headings ********************/
+.big-heading {
+  text-align: left;
+}
+
+/******************** Title & Navigation bar Section ********************/
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Hierarchical selectors  */
+#title .container-fluid {
+  padding: 2% 15%;
+}
+
+.title-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* Navigation bar brand name */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+/* Navigation bar items */
+.nav-item {
+  padding: 0 20px;
+}
+
+/* Navigation bar links */
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download button */
+.download-btn {
+  margin: 3% 3% 3% 0;
+}
+
+/* Tilte image */
+.title-image {
+  width: 60%;
+  margin: 3% 0;
+  position: relative;
+  top: 100px;
+  transform: rotate(25deg);
+}
+
+/******************** Features Section ********************/
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Feature divs */
+.feature-divs {
+  padding: 7% 10%;
+}
+
+/* Feature icons */
+.feature-icon {
+  color: #FF7396;
+  margin-bottom: 5%;
+}
+
+/* Feature icons hover state*/
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/******************** Testimonials Section ********************/
+
+#testimonials {
+  background-color: #FF7396;
+}
+
+.testimonial-text {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  margin-top: 3%;
+  width: 17%;
+}
+
+/* Hierarchical selectors  */
+.carousel-inner .carousel-item {
+  padding: 5% 25%;
+}
+
+#press {
+  background-color: #FF7396;
+}
+
+.press-logo {
+  margin: 2% 3%;
+  width: 10%;
+}
+
+/******************** Pricing Section ********************/
+
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.pricing-col {
+  margin: 2% 0;
+}
+
+/******************** Call to Action Section ********************/
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-text {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+/******************** Copyright Section ********************/
+
+.fa-icon {
+  margin: 20px 10px;
+}
+
+
+/******************** Media Query Section ********************/
+
+@media (max-width:985px){
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
